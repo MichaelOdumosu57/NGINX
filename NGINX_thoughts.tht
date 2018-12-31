@@ -1,0 +1,3 @@
+NGINX thoughts
+
+first going through the documentation I understoond mainly that NGINX was a de-agititor to company servers. I also learned that NGINX is controled through its directives and variables which shift how the master and worker process do things. I learned that it has been heavily geared toward proxy infrastructure, and is given suffcient metrics about the backend servers it works with, it also supports much configuration from many different client requests. Also it has the ablity to cache content and has dyanmic caching technology in place
