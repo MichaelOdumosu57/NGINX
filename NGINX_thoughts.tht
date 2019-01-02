@@ -1,3 +1,6 @@
 NGINX thoughts
 
 first going through the documentation I understoond mainly that NGINX was a de-agititor to company servers. I also learned that NGINX is controled through its directives and variables which shift how the master and worker process do things. I learned that it has been heavily geared toward proxy infrastructure, and is given suffcient metrics about the backend servers it works with, it also supports much configuration from many different client requests. Also it has the ablity to cache content and has dyanmic caching technology in place
+
+
+I learned about location and how if NGINX is not able to provide pages there is redirect management tool in place for the developer. Also learned about variables and regex because variables are sometimes needed for  the complex work. The return functionality is a NGINX plus feature but even non-developers should understand this as well, as when they are looking for a subdirectory in a website and its not found or they type an address and see that is has changed. NGINX is alive if you will when it comes to serving static content, it can work with files directories missing code and running scripts and do its best to serve the content if an error comes up it can more than handle as well. There are also some optimization tips which require messing with the kernel a bit, but if the extra push is needed use it 
